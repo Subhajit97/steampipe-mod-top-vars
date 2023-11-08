@@ -10,3 +10,9 @@ mod "top_vars" {
     }
   }
 }
+
+variable "slack_token" {
+  description = "Slack app token used to authenticate to your Slack workspace."
+  type        = string
+  default     = "xoxp-fslhwkfh345639ghfkwsjgfksw"
+}
