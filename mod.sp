@@ -1,7 +1,7 @@
 mod "top_vars" {
   title = "top vars mod"
   require {
-    mod "github.com/pskrbasu/steampipe-mod-dependency-vars-2"  {
+    mod "github.com/Subhajit97/steampipe-mod-dependent-vars"  {
       version = "*"
 
       args = {
