@@ -5,7 +5,7 @@ mod "top_vars" {
       version = "*"
 
       args = {
-        token = var.github_token
+        token = var.slack_token
       }
     }
   }
