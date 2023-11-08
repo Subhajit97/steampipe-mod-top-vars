@@ -16,3 +16,7 @@ variable "slack_token" {
   type        = string
   default     = "xoxp-fslhwkfh345639ghfkwsjgfksw"
 }
+
+query "version_dependency_mod_vars_1"{
+  sql = dependent_vars.query.version.sql
+}
